@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Vollkorn&display=swap');
+
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+ } 
+  
+
+ *:before, 
+ *:after { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+ } 
+  
+ :focus, 
+ :active { 
+    outline: none; 
+ } 
+  
+ a:focus, 
+ a:active { 
+    outline: none; 
+ } 
+  
+ nav, 
+ footer, 
+ header, 
+ aside { 
+    display: block; 
+ } 
+  
+ html{
+   scroll-behavior: smooth;
+ }
+ body { 
+   display: flex;
+   justify-content: center;
+    height: 100% auto; 
+    width: 100%; 
+    font-size: 100%; 
+    line-height: 1; 
+    font-size: 14px; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+    display: flex;
+    flex-direction: column;
+ } 
+  
+ input, 
+ button, 
+ textarea { 
+    font-family: inherit; 
+ } 
+  
+ input::-ms-clear { 
+    display: none; 
+ } 
+  
+ button { 
+    cursor: pointer; 
+ } 
+  
+ button::-moz-focus-inner { 
+    padding: 0; 
+    border: 0; 
+ } 
+  
+ a, 
+ a:visited { 
+    text-decoration: none; 
+ } 
+  
+ a:hover { 
+    text-decoration: none; 
+ } 
+  
+ ul li { 
+    list-style: none; 
+ } 
+  
+ img { 
+    vertical-align: top; 
+ } 
+  
+ h1, 
+ h2, 
+ h3, 
+ h4, 
+ h5, 
+ h6 { 
+    font-size: inherit; 
+    font-weight: 400; 
+ }
+
+
+header{
+   height: 109px;
+   background-color: white;
+   width: 100%;
+   gap: 445px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cont_head{
+   max-width: 950px;
+   height: 100%;
+   width: 100%;
+   gap: 445px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+button{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer; 
+  background: none;
+}
+.buttons{
+  display: flex;
+  gap: 50px;
+  width: 338px;
+  height: 13px;
+  
+}
+.btn1{
+   background-color: white;
+   height: 13px;
+   padding: 0px;
+}
+.btn2{
+   background-color: white;
+   height: 13px;
+   padding: 0px;
+}
+.btn3{
+   background-color: white;
+   height: 13px;
+   padding: 0px;
+}
+.btn4{
+   background-color: white;
+   height: 13px;
+   padding: 0px;
+}
+.icon{
+height: 70px;
+width: 65px;
+}
+.icon_1{
+   display: flex;
+   height: 70px;
+   width: 155px;
+   align-items: center;
+   gap: 12%;
+   }
+.minimal{
+   font-size: 22px;
+   font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+ .cont{
+   height: 100vh;
+   width: 100%;
+}
+.text{
+   display: flex;
+   width: 666px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.image_bg{
+   width: 100%;
+   height: 391px;
+   background-image: url(./images/bg1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Text_main{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 43px;
+   color: white;
+}
+.Text_main_2{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 43px;
+   color: white;
+}
+.Text_1{
+   font-family: 'Vollkorn', serif;
+   font-size: 15px;
+   color: white;
+   margin-top: 28px;
+}
+.line{
+   height: 2px;
+   width: 82px;
+   background-color: white;
+   margin-top: 40px;
+}
+.X{
+   margin-top: -26px;
+   margin-left: 48.5%;
+   width: 52px;
+   height: 52px;
+   transition-duration: 0.6s;
+   z-index: 10;
+   }
+.X:hover{
+   transform: rotate(90deg);
+}
+.BG_yellow{
+   background-color: #FEFEC9;
+   height: 289px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: -26px;
+   align-items: center;
+   gap: 11px;
+   flex-wrap: wrap;
+}
+.Head_2{
+   font-family: 'Vollkorn', serif;
+   font-size: 18px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.Head_3{
+   font-family: 'Vollkorn', serif;
+   font-size: 18px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.Head_4{
+   font-family: 'Vollkorn', serif;
+   font-size: 18px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.Head_5{
+   font-family: 'Vollkorn', serif;
+   font-size: 18px;
+}
+.GiT{
+   font-size: 16px;
+   font-family: 'Vollkorn', serif;
+   margin-top: 43px;
+   width: 159px;
+   height: 53px;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   border-bottom: 2px solid black;
+   transition-duration: 1s;
+}
+.GiT:hover{
+   cursor: pointer;
+   font-size: 17px;
+   transform: translate(-5px, -3px);
+}
+
+                 /* Chapter 2 */
+
+.BG_White{
+   height: 616px;
+   width: 100%;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+ .header_1{
+   width: 100%;
+   height: 487px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} 
+.Flex_logo{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 23px;
+   margin-top: 95px;
+   margin-bottom: 38px;
+}
+.Grey_line{
+   height: 2px;
+   width: 80px;
+   background-color: gray;
+   margin-bottom: 43px;
+}
+.Block_1{
+   width: 300px;
+   height: 356px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 94px;
+}
+.Block_2{
+   width: 300px;
+   height: 356px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+
+}
+.Block_3{
+   width: 300px;
+   height: 356px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+.blocks{
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.Block_BG_Grey_1{
+   width: 300px;
+   height: 219px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F5F5F5;
+}
+.Block_BG_Grey_2{
+   width: 300px;
+   height: 219px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F5F5F5;
+}
+.Block_BG_Grey_3{
+   width: 300px;
+   height: 219px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F5F5F5;
+}
+.Target{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 43px;
+   margin-bottom: 28px;
+}
+.Design{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 43px;
+   margin-bottom: 28px;
+}
+.Track{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 43px;
+   margin-bottom: 28px;
+}
+.p_Flex{
+   font-family: 'Vollkorn', serif;
+   font-size: 15px;
+}
+.Blocks_logo{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 23px;
+   margin-top: 88px;
+
+}
+.line_2{
+   width: 80px;
+   height: 2px;
+   background-color: gray;
+   margin-top: 38px;
+}
+.Nine_blocks{
+   height: 1470px;
+   width: 100%;
+   background-color: #F5F5F5;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.Flex_blocks_1{
+   display: flex;
+   gap: 20px;
+   margin-top: 43px;
+   flex-wrap: wrap;
+}
+.Flex_blocks_2{
+   display: flex;
+   gap: 20px;
+   margin-top: 20px;
+   flex-wrap: wrap;
+}
+.Flex_blocks_3{
+   display: flex;
+   gap: 20px;
+   margin-top: 20px;
+   margin-bottom: 89px;
+   flex-wrap: wrap;
+}
+.Block_classical{
+   width:300px;
+   height: 384px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.P_Default{
+   font-family: 'Vollkorn', serif;
+   font-size: 14px;
+   margin-top: 13px;
+}
+.Nine_logo{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   margin-top: 20px;
+}
+.Block_1_img{
+   width: 300px;
+   height: 300px;
+   transition-duration: 500ms;
+   cursor: pointer;
+}
+.Block_1_img:hover{
+   transform: scale(1.1, 1.1);
+}
+.Block_img{
+   width: 300px;
+   height: 300px;
+   transition-duration: 500ms;
+   cursor: pointer;
+}
+.Block_img:hover{
+   transform: scale(1.1, 1.1);
+}
+                          
+                 /* Chapter 3 */
+
+
+.Team{
+   background-color: white;
+   width: 100%;
+   height: 633px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Flex_team{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   width: 100%;
+   height: 633px;
+   flex-direction:row;
+}
+.Team_head{
+   font-size: 23px;
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 106px;
+}
+.line_team{
+   width: 82px;
+   height: 2px;
+   background-color: gray;
+   margin-top: 36px;
+   margin-bottom: 43px;
+}
+.Name_Surname{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 24px;
+}
+.Specialist{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 220px;
+   height: 339px;
+}
+.Profession{
+   font-family: 'Vollkorn', serif;
+   font-size: 14px;
+   margin-top: 15px;
+   margin-bottom: 31px;
+}
+.WG_BG{
+   width: 100%;
+   height: 511px;
+   background-color: #F5F5F5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Flex_replays{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 215px;
+   margin-bottom: 100px;
+}
+.replay_{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 346px;
+   height: 235px;
+   justify-content: center;
+}
+.P_replay{
+   font-family: 'Vollkorn', serif; 
+   font-size: 26px;
+}
+.icon6{
+   width: 62px;
+   height: 62px;
+   margin-top: 69px;
+   margin-bottom: 59px;
+}
+.Client{
+   margin-top: 34px;
+   margin-bottom: 17px;
+}
+.Name_client{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14PX;
+   background-color: #F5F5F5;
+   opacity: 60%;
+}
+.Social{
+   width: 100%;
+   height: 517px;
+   background-image: url(./images/Bg2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Blocks_b{
+   display: flex;
+   height: 265    px;
+   justify-content: center;
+   gap: 90px;
+   flex-wrap: wrap;
+   flex-basis: auto;
+}
+.b1{
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   justify-self: center;
+   align-items: center;
+   width: 169px;
+   height: 228px;
+}
+.b2{
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   justify-self: center;
+   align-items: center;
+   width: 199px;
+   height: 234px;
+   margin-top: 8px;
+}
+.b3{
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   justify-self: center;
+   align-items: center;
+   width: 149px;
+   height: 201px;
+   margin-top: -8px;
+   margin-top: 8px;
+}
+.B_text{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 31px;
+   margin-bottom: 27px;
+}
+.B_text_2{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin-top: 40px;
+   margin-bottom: 27px;
+}
+.B_head{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 23px;
+   margin-bottom: 38px;
+   margin-top: 86px;
+   color: rgba(51, 51, 51, 0.7);
+}
+.B_line{
+   width: 80px;
+   height: 2px;
+   background-color: rgba(0, 0, 0, 0.19);
+   margin-bottom: 64px;
+}
+.B_P2{
+   margin-bottom: 27px;
+   font-size: 16px;
+}
+.B_P{
+   font-family: 'Vollkorn', serif;
+}
+.B_P3{
+   margin-bottom: 13px;
+   display: flex;
+   justify-content: start;
+   font-size: 17px;
+}
+.B_P3C{
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+}
+.icn{
+   width: 14px;
+   height: 14px;
+}
+.B_P_Flex{
+   display: flex;
+   gap: 10px;
+}
+.Form_black{
+   height: 639px;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.form{
+   width: 100%;
+   margin-top: 69px;
+   margin-bottom: 22px;
+   display: flex;
+   justify-content: center;
+}
+.strenght{
+   width: 100%;
+   height: 57px;
+   background-color: rgba(255, 255, 255, 0.18);
+}
+.strenght_2{
+   width: 100%;
+   height: 57px;
+   background-color:rgba(255, 255, 255, 0.2);
+   z-index: 20;
+}
+.strenght_4{
+   width: 100%;
+   height: 127px;
+   background-color: rgba(255, 255, 255, 0.2);
+}
+.BTN_form{
+   margin-top: 22px;
+   width: 212px;
+   height: 56px;
+   color: #7EC4BD;
+   font-size: 17px;
+   font-family: 'Vollkorn', serif;
+   font-style: italic;
+   border-top: 1px solid #7EC4BD;
+   border-bottom: 2px solid #7EC4BD;
+   border-left: 1px solid #7EC4BD;
+   border-right: 1px solid #7EC4BD;
+}
+.f1_Form{
+   width: 560px;
+   height: 548px;
+   margin-bottom: 18px;
+   z-index: 20;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Inputs{
+   width: 100%;
+   height: 57px;
+   border: none;
+   font-family: 'Vollkorn', serif; 
+   font-size: 17px;
+   font-style: italic;
+   padding-left: 31px;
+   background-color: rgba(1, 1, 1, 0);
+   color: white;
+
+}
+.Inputs_4{
+   width: 100%;
+   height: 97px;
+   border: none;
+   font-family: 'Vollkorn', serif; 
+   font-size: 17px;
+   font-style: italic;
+   padding-left: 31px;
+   padding-top: 19px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   overflow: hidden;
+   background-color: rgba(1, 1, 1, 0);
+   color: white;
+
+}
+.Inputs_4::placeholder{
+   color: white;
+   opacity: 0.8;
+}
+.Inputs::placeholder{
+   color: white;
+   opacity: 0.9;
+}
+.Form_logo{
+   margin-top: 37px;
+   margin-bottom: 18px;
+}
+.Form_text{
+   font-family: 'Vollkorn', serif;
+   font-size: 15px;
+   color: rgba(255, 255, 255, 0.4);
+}
+.Scroll_a{
+   color: black;
+}
+
+
+@media (max-width: 1000px){
+   .Nine_blocks{
+      height: 2269px;
+   }
+   .Flex_blocks_1{
+      flex-direction: column;
+   }
+   .Flex_blocks_2{
+      flex-direction: column;
+      margin-top: 42px;
+   }
+   .Flex_blocks_3{
+      width: 650px;
+      justify-content: center;
+   }
+   .Flex_adapt{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+   }
+   .cont_head{
+      gap: 140px;
+      justify-content: center;
+   }
+   .Flex_team{
+      flex-wrap: wrap;
+      height: 762px;
+   }
+   .Team{
+      height: 972px;
+   }
+   .Team_head{
+      margin-top: 56px;
+   }
+   .Flex_replays{
+      flex-direction: column;
+      align-items: center;
+      height: 450px;
+      gap: 50px;
+   }
+   .WG_BG{
+      height: 708px;
+   }
+   .icon6{
+      margin-top: 30px;
+      margin-bottom: 40px;
+   }
+   .Blocks_b{
+      height: 650px;
+   }
+   .Social{
+      height: 800px;
+   }
+   .B_head{
+      margin-top: 25px;
+      margin-bottom: 0px;
+   }
+   .f1_Form{
+      width: 340px;
+   }
+   .Inputs_4{
+      width: 89%;
+      overflow-y: scroll;
+      font-size: 13px;
+   }
+   .Inputs{
+      width: 300px;
+      font-size: 13px;
+   }
+   .BTN_form{
+      width: 130px;
+      height: 35px;
+      font-size: 13px;
+   }
+   .Form_text{
+      margin-top: 40px;
+      font-size: 11px;
+   }
+   .Text_main{
+      font-size: 30px;
+   }
+   .Text_main_2{
+      font-size: 30px;
+   }
+}
+.Head_3{
+   display: flex;
+   justify-content: center;
+}                                                                                                                             
+.p_Flex{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.p_Flex_1_2{
+   display: flex;
+   flex-wrap: wrap;
+}
+.p_Flex_1_3{
+   display: flex;
+   flex-wrap: wrap;
+}
+.Head_adaptive{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Vollkorn', serif; */
+
+@media (max-width: 650px){
+      .Flex_blocks_3{
+         flex-direction: column;
+         align-items: center;
+      }
+      .Flex_adapt{
+         flex-direction: column;
+      }
+      .Nine_blocks{
+         height: 3800px;
+         display: flex;
+         justify-content: center;
+      }
+      p{
+         font-size: 11px;
+      }
+      .Head_2{
+         font-size: 15px;
+      }
+      .Head_3{
+         font-size: 15px;
+      }
+      .Head_4{
+         font-size: 15px;
+      }
+      .Flex_logo{
+         font-size: 17px;
+      }
+      .p_Flex{
+         font-size: 11px;
+      }
+      .cont_head{
+         gap: 20px;
+         width: 100%;
+      }
+      .minimal{
+         display: none;
+      }
+      .Flex_team{
+         flex-direction: column;
+         height: 1400px;
+         flex-wrap: nowrap;
+         align-items: center;
+         margin-bottom: 50px;
+      }
+      .Team{
+         height: 1500px;
+      }
+      .B_line{
+         margin-bottom: 12px;
+      }
+      .Social{
+         min-height: 1100px;
+
+      }
+      .Blocks_b{
+         width: 100%;
+         flex-direction: column;
+         margin-top: 210px;
+         flex-wrap: nowrap;
+         align-items: center;
+      }
+      .Flex_blocks_3{
+         width: 100%;
+      }
+      .buttons{
+         gap: 20px;
+      }
+      .Scroll_a{
+         margin-bottom: 50px;
+      }
+      .B_line{
+         margin-top: 50px;
+      }
+      .header_1{
+         width: 100%;
+      }
+}
+@media (max-width: 500px){
+   .buttons{
+      flex-direction: column;
+      gap: 13px;
+      margin-top: -84px;
+   }
+   .cont_head{
+      gap: 0px;
+      justify-content: center;
+   }
+   .icon_1{
+      margin-left: 32px;
+   }
+   .icon{
+      width: 45px;
+      height: 49px;
+   }
+   .Text_main{
+      font-size: 20px;
+   }
+   .Text_main_2{
+      font-size: 20px;
+   }
+   .Text_1{
+      font-size: 11px;
+   }
+   .line{
+      width: 57px;
+      height: 1px;
+   }
+   .GiT{
+      height: 37px;
+      width: 123px;
+      font-size: 13px;
+   }
+   .Flex_logo{
+      font-size: 14px;
+   }
+   .Block_classical{
+      width: 280px;
+      height: 360px;
+   }
+   .Block_img{
+      width: 280px;
+      height: 280px;
+   }
+   .P_replay{
+      font-size: 20px;
+   }
+   .icon6{
+      width: 40px;
+      height: 40px;
+   }
+   .Blocks_b{
+      margin-top: 120px;
+   }
+   .f1_Form{
+      width: 90%;
+   }
+   .Inputs{
+      padding-left: 14px;
+   }
+}
+@media (max-width: 320px){
+   .Inputs{
+      max-width: 265px;
+      padding-left: 10px;
+   }
+   .Inputs_4{
+      padding-left: 10px;
+   }
+   .Head_2{
+      font-size: 12px;
+   }
+   .Head_3{
+      font-size: 12px;
+   }
+   .Head_4{
+      font-size: 12px;
+   }
+   .B_head{
+      font-size: 18px;
+   }
+   .replay_{
+      width: 300px;
+   }
+   .Block_classical{
+      width: 250px;
+      height: 350px;
+   }
+   .Block_img{
+      width: 250px;
+      height: 250px;
+   }
+   .Block_BG_Grey_1{
+      height: 183px;
+      width: 270px;
+   }
+   .Block_BG_Grey_2{
+      height: 183px;
+      width: 270px;
+   }
+   .Block_BG_Grey_3{
+      height: 183px;
+      width: 270px;
+   }
+   .X{
+      width: 35px;
+      height: 35px;
+      margin-top: -29px;
+      margin-left: 46%;
+   }
+   .Text_main{
+      font-size: 17px;
+   }
+   .Text_main_2{
+      font-size: 17px;
+   }
+   .buttons{
+      font-size: 10px;
+   }
+   .btn1{font-size: 10px;}
+   .btn2{font-size: 10px;}
+   .btn3{font-size: 10px;}
+   .btn4{font-size: 10px;}
+   .Scroll_a{font-size: 10px;}
+}
